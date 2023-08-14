@@ -1,0 +1,18 @@
+.page-inner {
+    max-width: 95%; 
+    width: 90%;
+}
+
+.markdown-section {
+    overflow-x: auto;
+}
+
+.markdown-section table td {
+    font-size: 90%;
+}
+
+table {
+    width: 100%;
+    white-space: nowrap;
+    empty-cells: show;
+}

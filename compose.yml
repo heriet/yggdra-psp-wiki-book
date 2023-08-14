@@ -1,0 +1,8 @@
+services:
+  honkit:
+    image: honkit/honkit:latest
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./:/work
+    working_dir: /work
